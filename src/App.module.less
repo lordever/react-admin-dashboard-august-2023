@@ -1,0 +1,20 @@
+@import '@styles/variables.less';
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.main {
+  position: absolute;
+  width: calc(100% - 350px);
+  left: 300px;
+  min-height: 100vh;
+  background: @white;
+  transition: 0.5s;
+}
+
+.active {
+  width: calc(100% - 130px);
+  left: 80px;
+}

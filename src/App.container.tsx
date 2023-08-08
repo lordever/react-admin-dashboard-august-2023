@@ -1,15 +1,33 @@
-import React from "react";
+import React, {useState} from "react";
 import i18n from "./i18n";
-import {I18nextProvider, useTranslation} from 'react-i18next';
-import Text from "./components/common/text/text.component";
+import {I18nextProvider} from 'react-i18next';
+import styles from "./App.module.less";
+import SideMenu from "./components/side-menu/side-menu.component";
+import cls from "classnames";
+import Topbar from "./components/topbar/topbar.component";
+import CardBox from "./components/card-box/card-box.component";
+import GraphBox from "./components/graph-box/graph-box.component";
+import {graphBarData, graphBoxPolarAreaData} from "./stub/graphBox";
 
 const AppContainer = () => {
 
-    const {t} = useTranslation();
+    const [isSideMenuActive, setIsSideMenuActive] = useState(false);
+    const mainClassnames = cls(
+        styles.main,
+        isSideMenuActive ? styles.active : undefined
+    );
 
     return (
         <I18nextProvider i18n={i18n}>
-            <Text text={t("sample.text")}/>
+            <div className={styles.container}>
+                <SideMenu isActive={isSideMenuActive}/>
+
+                <div className={mainClassnames}>
+                    <Topbar onBurgerBtnClick={() => setIsSideMenuActive(!isSideMenuActive)}/>
+                    <CardBox/>
+                    <GraphBox polarAreaData={graphBoxPolarAreaData} barData={graphBarData}/>
+                </div>
+            </div>
         </I18nextProvider>
     );
 };

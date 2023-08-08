@@ -1,5 +1,15 @@
 {
-  "sample": {
-    "text": "Test translated message"
+  "sideMenu": {
+    "brandName": "Brand Name",
+    "dashboard": "Dashboard",
+    "customers": "Customers",
+    "message": "Message",
+    "help": "Help",
+    "settings": "Settings",
+    "password": "Password",
+    "signOut": "Sign Out"
+  },
+  "search": {
+    "inputField": "Search here"
   }
 }

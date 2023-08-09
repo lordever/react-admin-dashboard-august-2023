@@ -9,6 +9,7 @@ import CardBox from "./components/card-box/card-box.component";
 import GraphBox from "./components/graph-box/graph-box.component";
 import {graphBarData, graphBoxPolarAreaData} from "./stub/graphBox";
 import Details from "./components/details/details.component";
+import Footer from "./components/footer/footer.conponent";
 
 const AppContainer = () => {
 
@@ -28,6 +29,7 @@ const AppContainer = () => {
                     <CardBox/>
                     <GraphBox polarAreaData={graphBoxPolarAreaData} barData={graphBarData}/>
                     <Details/>
+                    <Footer/>
                 </div>
             </div>
         </I18nextProvider>

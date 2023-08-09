@@ -49,5 +49,8 @@
     "inProgress": "In Progress",
     "return": "Return",
     "none": "None"
+  },
+  "footer": {
+
   }
 }

@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cf0a1d2-2848-4d76-9abc-ae5bed3090e3" name="Changes" comment="First part of the page has been completed">
-      <change afterPath="$PROJECT_DIR$/src/components/common/label.component.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/label.module.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/details/details.component.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/details/details.module.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/details/recent-customers/recent-customers.component.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/details/recent-customers/recent-customers.module.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/details/recent-orders/recent-orders.component.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/details/recent-orders/recent-orders.module.less" afterDir="false" />
+    <list default="true" id="6cf0a1d2-2848-4d76-9abc-ae5bed3090e3" name="Changes" comment="Details part has been implemented">
+      <change afterPath="$PROJECT_DIR$/src/components/footer/footer.conponent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footer/footer.module.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/locales/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/locales/en/translation.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.container.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/card-box/card-box.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/card-box/card-box.component.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +92,7 @@
       <workItem from="1691420347764" duration="79000" />
       <workItem from="1691420915175" duration="7306000" />
       <workItem from="1691515968344" duration="4055000" />
-      <workItem from="1691603652086" duration="4490000" />
+      <workItem from="1691603652086" duration="5780000" />
     </task>
     <task id="LOCAL-00001" summary="First part of the page has been completed">
       <created>1691519791981</created>
@@ -108,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691519791981</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Details part has been implemented">
+      <created>1691608256112</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691608256112</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +116,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First part of the page has been completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="First part of the page has been completed" />
+    <MESSAGE value="Details part has been implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="Details part has been implemented" />
   </component>
 </project>

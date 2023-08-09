@@ -6,20 +6,20 @@ import {HiMail} from "react-icons/hi";
 import {SlSocialTwitter} from "react-icons/sl";
 import {FaFacebook} from "react-icons/fa";
 import {BsYoutube} from "react-icons/bs";
+import {useTranslation} from "react-i18next";
 
 const Footer = () => {
+
+    const {t} = useTranslation();
+
     return (
         <>
             <footer>
                 <div className={styles.footerContainer}>
                     <div className={styles.sec}>
-                        <h2>About Us</h2>
+                        <h2>{t("footer.aboutUs.title")}</h2>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, deserunt dignissimos eaque
-                            excepturi
-                            fugit, ipsa ipsam labore magni natus neque numquam optio pariatur recusandae sed sit. Iste
-                            nisi
-                            officiis tenetur.
+                            {t("footer.aboutUs.description")}
                         </p>
                         <ul className={styles.sci}>
                             <li><a href="#"><FaFacebook/></a></li>
@@ -29,40 +29,40 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className={cls(styles.sec, styles.quicklinks)}>
-                        <h2>Support</h2>
+                        <h2>{t("footer.support.title")}</h2>
                         <ul>
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Help</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">{t("footer.support.faq")}</a></li>
+                            <li><a href="#">{t("footer.support.privacyPolicy")}</a></li>
+                            <li><a href="#">{t("footer.support.help")}</a></li>
+                            <li><a href="#">{t("footer.support.contact")}</a></li>
                         </ul>
                     </div>
                     <div className={cls(styles.sec, styles.quicklinks)}>
-                        <h2>Shop</h2>
+                        <h2>{t("footer.shop.title")}</h2>
                         <ul>
-                            <li><a href="#">Men</a></li>
-                            <li><a href="#">Woman</a></li>
-                            <li><a href="#">Kids</a></li>
-                            <li><a href="#">Shoes</a></li>
+                            <li><a href="#">{t("footer.shop.men")}</a></li>
+                            <li><a href="#">{t("footer.shop.women")}</a></li>
+                            <li><a href="#">{t("footer.shop.kids")}</a></li>
+                            <li><a href="#">{t("footer.shop.shoes")}</a></li>
                         </ul>
                     </div>
                     <div className={styles.sec}>
-                        <h2>Contact Us</h2>
+                        <h2>{t("footer.contactUs.title")}</h2>
                         <ul className={styles.info}>
                             <li>
                                 <span><BiSolidPhone/></span>
-                                <p><a href="tel:+12345678900">+1 234 567 8900</a></p>
+                                <p><a href="tel:+12345678900">{t("footer.contactUs.phoneNumber")}</a></p>
                             </li>
                             <li>
                                 <span><HiMail/></span>
-                                <p><a href="mailto:zoomlex@gmail.com">zoomlex@gmail.com</a></p>
+                                <p><a href="mailto:zoomlex@gmail.com">{t("footer.contactUs.email")}</a></p>
                             </li>
                         </ul>
                     </div>
                 </div>
             </footer>
             <div className={styles.copyrightText}>
-                <p>Copyright 2023 zoomlex. All Rights Reserved</p>
+                <p>{t("footer.copyrightText")}</p>
             </div>
         </>
     );

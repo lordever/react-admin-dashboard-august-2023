@@ -51,6 +51,29 @@
     "none": "None"
   },
   "footer": {
-
+    "aboutUs": {
+      "title": "About Us",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    "support": {
+      "title": "Support",
+      "faq": "FAQ",
+      "privacyPolicy": "Privacy Policy",
+      "help": "Help",
+      "contact": "Contact"
+    },
+    "shop": {
+      "title": "Shop",
+      "men": "Men",
+      "woman": "Woman",
+      "kids": "Kids",
+      "shoes": "Shoes"
+    },
+    "contactUs": {
+      "title": "Contact Us",
+      "phoneNumber": "+1 234 567 8900",
+      "email": "zoomlex@gmail.com"
+    },
+    "copyrightText": "Copyright 2023 zoomlex. All Rights Reserved"
   }
 }

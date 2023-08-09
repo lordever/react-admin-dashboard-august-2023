@@ -8,6 +8,7 @@ import Topbar from "./components/topbar/topbar.component";
 import CardBox from "./components/card-box/card-box.component";
 import GraphBox from "./components/graph-box/graph-box.component";
 import {graphBarData, graphBoxPolarAreaData} from "./stub/graphBox";
+import Details from "./components/details/details.component";
 
 const AppContainer = () => {
 
@@ -26,6 +27,7 @@ const AppContainer = () => {
                     <Topbar onBurgerBtnClick={() => setIsSideMenuActive(!isSideMenuActive)}/>
                     <CardBox/>
                     <GraphBox polarAreaData={graphBoxPolarAreaData} barData={graphBarData}/>
+                    <Details/>
                 </div>
             </div>
         </I18nextProvider>

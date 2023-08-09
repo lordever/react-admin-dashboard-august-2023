@@ -11,5 +11,43 @@
   },
   "search": {
     "inputField": "Search here"
+  },
+  "cardBox": {
+    "dailyNews": {
+      "title": "Daily Views",
+      "value": "1,504"
+    },
+    "sales": {
+      "title": "Sales",
+      "value": "80"
+    },
+    "comments": {
+      "title": "Comments",
+      "value": "284"
+    },
+    "earning": {
+      "title": "Earning",
+      "value": "$7,842"
+    }
+  },
+  "details": {
+    "recentOrders": {
+      "title": "Recent Orders",
+      "viewAll": "View All",
+      "nameRow": "Name",
+      "priceRow": "Price",
+      "paymentRow": "Payment",
+      "statusRow": "Status"
+    },
+    "recentCustomers": {
+      "title": "Recent Customers"
+    }
+  },
+  "labels": {
+    "delivered": "Delivered",
+    "pending": "Pending",
+    "inProgress": "In Progress",
+    "return": "Return",
+    "none": "None"
   }
 }

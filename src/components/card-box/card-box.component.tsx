@@ -1,14 +1,18 @@
 import React from 'react';
 import {IoCartOutline, IoCashOutline, IoChatbubblesOutline, IoEyeOutline} from "react-icons/io5";
 import styles from "./card-box.module.less"
+import {useTranslation} from "react-i18next";
 
 const CardBox = () => {
+
+    const {t} = useTranslation();
+
     return (
         <div className={styles.cardBox}>
             <div className={styles.card}>
                 <div>
-                    <div className={styles.numbers}>1,504</div>
-                    <div className={styles.cardName}>Daily Views</div>
+                    <div className={styles.numbers}>{t("cardBox.dailyNews.value")}</div>
+                    <div className={styles.cardName}>{t("cardBox.dailyNews.title")}</div>
                 </div>
                 <div className={styles.iconBx}>
                     <IoEyeOutline/>
@@ -16,8 +20,8 @@ const CardBox = () => {
             </div>
             <div className={styles.card}>
                 <div>
-                    <div className={styles.numbers}>80</div>
-                    <div className={styles.cardName}>Sales</div>
+                    <div className={styles.numbers}>{t("cardBox.sales.value")}</div>
+                    <div className={styles.cardName}>{t("cardBox.sales.title")}</div>
                 </div>
                 <div className={styles.iconBx}>
                     <IoCartOutline/>
@@ -25,8 +29,8 @@ const CardBox = () => {
             </div>
             <div className={styles.card}>
                 <div>
-                    <div className={styles.numbers}>284</div>
-                    <div className={styles.cardName}>Comments</div>
+                    <div className={styles.numbers}>{t("cardBox.comments.value")}</div>
+                    <div className={styles.cardName}>{t("cardBox.comments.title")}</div>
                 </div>
                 <div className={styles.iconBx}>
                     <IoChatbubblesOutline/>
@@ -34,8 +38,8 @@ const CardBox = () => {
             </div>
             <div className={styles.card}>
                 <div>
-                    <div className={styles.numbers}>$7,842</div>
-                    <div className={styles.cardName}>Earning</div>
+                    <div className={styles.numbers}>{t("cardBox.earning.value")}</div>
+                    <div className={styles.cardName}>{t("cardBox.earning.title")}</div>
                 </div>
                 <div className={styles.iconBx}>
                     <IoCashOutline/>

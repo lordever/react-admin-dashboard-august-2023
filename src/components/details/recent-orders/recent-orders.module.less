@@ -1,0 +1,63 @@
+@import '@styles/variables.less';
+
+.recentOrders {
+  position: relative;
+  display: grid;
+  min-height: 500px;
+  background: @white;
+  padding: 20px;
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+
+  table {
+    tbody tr:hover {
+      background: @blue;
+      color: @white;
+    }
+
+    tr {
+      color: @black1;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+      td {
+        padding: 10px;
+
+        &:last-child {
+          text-align: end;
+        }
+
+        &:nth-child(2) {
+          text-align: end;
+        }
+
+        &:nth-child(3) {
+          text-align: center;
+        }
+      }
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  h2 {
+    font-weight: 600;
+    color: @blue;
+  }
+}
+
+.btn {
+  position: relative;
+  padding: 5px 10px;
+  background: @blue;
+  text-decoration: none;
+  color: @white;
+  border-radius: 6px;
+}

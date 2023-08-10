@@ -5,26 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cf0a1d2-2848-4d76-9abc-ae5bed3090e3" name="Changes" comment="Mobile view has been implemented">
-      <change afterPath="$PROJECT_DIR$/src/constants/common.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/declaration.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/declaration.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.container.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.module.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/styles/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/styles/variables.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/card-box/card-box.module.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/card-box/card-box.module.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/label.module.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/label.module.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/details/details.module.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/details/details.module.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/details/recent-customers/recent-customers.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/details/recent-customers/recent-customers.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/details/recent-orders/recent-orders.module.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/details/recent-orders/recent-orders.module.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.module.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.module.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/graph-box/graph-box.module.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/graph-box/graph-box.module.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/side-menu/side-menu.module.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/side-menu/side-menu.module.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/topbar/burger-button/burger-button.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/topbar/burger-button/burger-button.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/topbar/burger-button/burger-button.module.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/topbar/burger-button/burger-button.module.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/topbar/topbar.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/topbar/topbar.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/topbar/user-icon/user-icon.module.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/topbar/user-icon/user-icon.module.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +61,17 @@
       <recent name="C:\Users\OVERY\IdeaProjects\react-admin-dashboard-august-2023\src\components\topbar" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.build">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -91,6 +84,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
@@ -108,7 +102,7 @@
       <workItem from="1691420915175" duration="7306000" />
       <workItem from="1691515968344" duration="4055000" />
       <workItem from="1691603652086" duration="6312000" />
-      <workItem from="1691688316443" duration="2616000" />
+      <workItem from="1691688316443" duration="5111000" />
     </task>
     <task id="LOCAL-00001" summary="First part of the page has been completed">
       <created>1691519791981</created>
@@ -131,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691609517022</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Mobile view has been implemented">
+      <created>1691690981105</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691690981105</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

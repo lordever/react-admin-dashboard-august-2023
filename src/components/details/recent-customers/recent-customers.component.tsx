@@ -22,6 +22,7 @@ const RecentCustomers = () => {
                 </h2>
             </div>
             <table>
+                <tbody>
                 <tr>
                     <td width="60px">
                         <div className={styles.imgBx}>
@@ -126,6 +127,7 @@ const RecentCustomers = () => {
                         </h4>
                     </td>
                 </tr>
+                </tbody>
             </table>
         </div>
     );

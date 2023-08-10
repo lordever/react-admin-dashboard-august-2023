@@ -12,9 +12,18 @@
   min-height: 100vh;
   background: @white;
   transition: 0.5s;
+
+  @media (max-width: @max-screen-size) {
+    width: 100%;
+    left: 0;
+  }
 }
 
 .active {
   width: calc(100% - 130px);
   left: 80px;
+
+  @media (max-width: @max-screen-size) {
+    left: calc(100% - 15px);
+  }
 }

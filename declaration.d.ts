@@ -13,6 +13,12 @@ declare module '*.json' {
     export default value;
 }
 
+declare module '@constants/*' {
+    import React from 'react';
+    const content: React.ComponentType<any>;
+    export default content;
+}
+
 //images
 declare module "*.jpg";
 declare module "*.png";

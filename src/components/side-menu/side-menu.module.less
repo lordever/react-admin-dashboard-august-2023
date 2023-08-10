@@ -70,10 +70,30 @@
       color: @white;
     }
   }
+
+  @media (max-width: @max-screen-size) {
+    left: -300px;
+  }
+
+  @media (max-width: @sm-screen-size) {
+    width: 100%;
+    left: -103%;
+    z-index: 1000;
+  }
 }
 
 .active {
   width: 65px;
+
+  @media (max-width: @max-screen-size) {
+    width: 300px;
+    left: 0;
+  }
+
+  @media (max-width: @sm-screen-size) {
+    width: 100%;
+    left: 0;
+  }
 }
 
 .hovered {

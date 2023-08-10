@@ -25,7 +25,8 @@ const AppContainer = () => {
                 <SideMenu isActive={isSideMenuActive}/>
 
                 <div className={mainClassnames}>
-                    <Topbar onBurgerBtnClick={() => setIsSideMenuActive(!isSideMenuActive)}/>
+                    <Topbar isSideMenuActive={isSideMenuActive}
+                            onBurgerBtnClick={() => setIsSideMenuActive(!isSideMenuActive)}/>
                     <CardBox/>
                     <GraphBox polarAreaData={graphBoxPolarAreaData} barData={graphBarData}/>
                     <Details/>

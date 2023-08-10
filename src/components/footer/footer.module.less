@@ -6,6 +6,10 @@ footer {
   height: auto;
   padding: 20px 100px;
   background: @white;
+
+  @media (max-width: @max-screen-size) {
+    padding: 20px;
+  }
 }
 
 .footerContainer {
@@ -13,6 +17,20 @@ footer {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr;
   grid-gap: 20px;
+
+  @media (max-width: @max-screen-size) {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+
+  @media (max-width: @md-screen-size) {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+  }
 }
 
 .sec {
@@ -96,4 +114,8 @@ footer {
   text-align: center;
   color: @black1;
   border: 1px solid rgba(0, 0, 0, 0.15);
+
+  @media (max-width: @max-screen-size) {
+    padding: 20px 40px 30px;
+  }
 }

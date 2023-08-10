@@ -40,6 +40,10 @@
       }
     }
   }
+
+  @media (max-width: @md-screen-size) {
+    overflow-x: auto;
+  }
 }
 
 .cardHeader {
@@ -50,6 +54,10 @@
   h2 {
     font-weight: 600;
     color: @blue;
+
+    @media (max-width: @sm-screen-size) {
+      font-size: 20px;
+    }
   }
 }
 

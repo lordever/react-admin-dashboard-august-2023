@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cf0a1d2-2848-4d76-9abc-ae5bed3090e3" name="Changes" comment="Mobile view has been implemented">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+    <list default="true" id="6cf0a1d2-2848-4d76-9abc-ae5bed3090e3" name="Changes" comment="Docked was added">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/azure-staticwebapp.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +22,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -102,7 +102,7 @@
       <workItem from="1691420915175" duration="7306000" />
       <workItem from="1691515968344" duration="4055000" />
       <workItem from="1691603652086" duration="6312000" />
-      <workItem from="1691688316443" duration="5111000" />
+      <workItem from="1691688316443" duration="5296000" />
     </task>
     <task id="LOCAL-00001" summary="First part of the page has been completed">
       <created>1691519791981</created>
@@ -132,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691690981105</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Docked was added">
+      <created>1691694673152</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691694673152</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +150,7 @@
     <MESSAGE value="Details part has been implemented" />
     <MESSAGE value="Footer has been implemented" />
     <MESSAGE value="Mobile view has been implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mobile view has been implemented" />
+    <MESSAGE value="Docked was added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Docked was added" />
   </component>
 </project>
